@@ -1,0 +1,500 @@
+   85  git push -u aits master
+   86  echo "Hi AI&DS Team" >>aits1.txt
+   87  cat aits1.txt
+   88  git add .
+   89  git commit -m "I have added somthing into first file
+   90  "
+   91  git push aits mster
+   92  git push -u aits mster
+   93  git remote -v
+   94  git push aits master
+   95  git pull aits master
+   96  cd ..
+   97  git clone https://github.com/vijaykumar10022/T-ShirtSize.git
+   98  git clone https://github.com/vijaykumar10022/Gitfiles.git
+   99  rmdir Gitfiles/
+  100  rmdir Gitfiles/
+  101  git clone https://github.com/vijaykumar10022/AITS-Project.git
+  102  pwd
+  103  cd AITS-Project/
+  104  git config user.name "vijay"
+  105  git config user.email "vijay10022@gmail.com"
+  106  mkdir vijay
+  107  ls
+  108  git add .
+  109  git commit -m "Folder is Created with my name"
+  110  git push -u origin master
+  111  git remote -v
+  112  ls
+  113  git push origin master
+  114  cd vijay/
+  115  touch file.txt
+  116  cd ..
+  117  git add .
+  118  git commit -m "done"
+  119  git clone https://github.com/vijaykumar10022/Gitfiles.git
+  120  cd Gitfiles/
+  121  ls
+  122  git add .
+  123  git commit -m "Basic Raptor Files Added"
+  124  git push origin master
+  125  mkdir vijay
+  126  cd vijay
+  127  pwd
+  128  touch file.txt
+  129  cd ..
+  130  git add .
+  131  git commit -m "Folder and file created"
+  132  git push origin master
+  133  git remote -v
+  134  git push origin master
+  135  git push origin master
+  136  git pull origin master
+  137  ls
+  138  cd vijay
+  139  ls
+  140  cd ..
+  141  ls
+  142  git add .
+  143  git commit -m "Done"
+  144  git pull origin master
+  145  git add .
+  146  git commit -m "Updated"
+  147  git push origin master
+  148  git push --help
+  149  git status
+  150  git remote -v
+  151  git push -f origin master
+  152  git clone https://github.com/vijaykumar10022/RAPTOR-AITS.git
+  153  cd RAPTOR
+  154  cd RAPTOR-AITS/
+  155  git remote -v
+  156  git add .
+  157  git commit -m "All Files are added"
+  158  git add remote raptorfiles https://github.com/vijaykumar10022/Raptor-Files.git
+  159  git remote add raptorfiles https://github.com/vijaykumar10022/Raptor-Files.git
+  160  git remote -v
+  161  git add .
+  162  git commit -m "All files are added"
+  163  git push raptorfiles master
+  164  git push raptorfiles master
+  165  pwd
+  166  ls
+  167  touch demo.txt
+  168  ls
+  169  touch file{1..10}.txt
+  170  ls
+  171  cd ..
+  172  pwd
+  173  cd GIST-vijay/
+  174  pwd
+  175  d:
+  176  d ::
+  177  d 
+  178  d :
+  179  d :
+  180  D :
+  181  d ;
+  182  pwd
+  183  d:
+  184  d;
+  185  d:
+  186  cd d:
+  187  pwd
+  188  cd e:
+  189  pwd
+  190  cd c:
+  191  pwd
+  192  mkdir myfolder
+  193  C:\Users\Admin\Desktop\GIST-vijay
+  194  cd Users\Admin\Desktop\GIST-vijay
+  195  cd Users/Admin/Desktop/GIST-vijay
+  196  cd c:
+  197  cd Users/Admin/Desktop/GIST-vijay
+  198  pwd
+  199  pwd
+  200  ls
+  201  mkdir myfolder
+  202  ls
+  203  rmdir myfolder/
+  204  ls
+  205  rm demo.txt
+  206  ls
+  207  rm file{1..10}.txt
+  208  ls
+  209  echo "Hello"
+  210  touch hello.txt
+  211  ls
+  212  echo "Hello"
+  213  echo "Hello" >>hello.txt
+  214  cat hello.txt
+  215  echo {1..100}
+  216  echo {1..100} >>hello.txt
+  217  cat hello.txt
+  218  touch myfiles{1..100}.txt
+  219  rm *.txt
+  220  touch file1.txt
+  221  touch file2.txt
+  222  ls
+  223  cat file1.txt >> file2.txt
+  224  cat file2.txt >>file1.txt
+  225  cat file1.txt 
+  226  mkdir apssdc
+  227  mkdir apssdc1
+  228  touch profile.txt
+  229  pwd
+  230  clear
+  231  cd apssdc1
+  232  touch profile.txt
+  233  ls
+  234  vi profile.txt
+  235  cat profile.txt
+  236  vi profile.txt
+  237  cat profile.txt
+  238  touch sample.html
+  239  vi sample.html
+  240  git init
+  241  git clone 'https://github.com/vijaykumar10022/gist_git.git'
+  242  ls
+  243  cd gist_git/
+  244  ls
+  245  vi README.md 
+  246  git config --global  user.name 'vijaykumar10022'
+  247  git config --global  user.name 'vijay10022'
+  248  git config --global  user.email 'vijay10022@gmail.com'
+  249  git init
+  250  git status -s
+  251  touch example.py
+  252  git status
+  253  git status -s
+  254  git add .
+  255  git commit -m 'write markdown statements'
+  256  git log
+  257  git remote add origin 'https://github.com/vijaykumar10022/gist_git.git'
+  258  git push origin master
+  259  git push origin main
+  260  mkdir abcdefgh
+  261  cd abcdefgh/
+  262  git clone 'https://github.com/vijaykumar10022/gist_git'
+  263  git add .
+  264  cd gist_git/
+  265  git add .
+  266  ls
+  267  git commit -m 'today files and data'
+  268  git status -s
+  269  git statusPp
+  270  pwd
+  271  ls
+  272  touch demo.txt
+  273  ls
+  274  mkdir GIST
+  275  ls
+  276  cd GIST
+  277  pwd
+  278  cd ..
+  279  pwd
+  280  cd e:
+  281  pwd
+  282  cd d:
+  283  pwd
+  284  cd c:
+  285  cd Users/Admin/Desktop/vijay-505
+  286  pwd
+  287  echo "Hello"
+  288  echo 1..100
+  289  echo "1..100"
+  290  echo {1..100}
+  291  echo {1..1000}
+  292  touch file{1..100}.txt
+  293  touch python{20..50}.py
+  294  touch clanguage{50..70}.cpp
+  295  pwd
+  296  ls
+  297  rmdir GIST
+  298  ls
+  299  rm demo.txt
+  300  ls
+  301  rm file{1..10}.txt
+  302  ls
+  303  rm file{50..100}.txt
+  304  ls
+  305  rm clanguage{50..10}.cpp
+  306  rm clanguage{50..100}.cpp
+  307  ls
+  308  rm *.txt
+  309  ls
+  310  rm *.py
+  311  ls
+  312  nano myfile.txt
+  313  cat myfile.txt 
+  314  nano myfile.txt 
+  315  cat myfile.txt 
+  316  echo "Hello" >> myfile2.txt
+  317  cat myfile2.txt
+  318  echo {1..1000} >> myfile3.txt
+  319  cat myfile3.txt
+  320  mv myfile3.txt myfile2.txt
+  321  cat myfile2.txt
+  322  ls
+  323  cp myfile2.txt myfile.txt
+  324  cat myfile.txt
+  325  ls
+  326  myfile.txt  myfile2.txt
+  327  cat myfile2.txt
+  328  history
+  329  history >>history.txt
+  330  git init
+  331  git config --global user.name "Vijay"
+  332  git config user.name
+  333  git config --global user.email "vijay10022@gmail.com"
+  334  git config user.email
+  335  git remote add gist https://github.com/vijaykumar10022/DataAnalasis_gist.git
+  336  git remote -v
+  337  git pull gist master
+  338  git pull gist master
+  339  touch file.csv
+  340  ls
+  341  git status
+  342  git add file.csv
+  343  git status
+  344  git add .
+  345  git status
+  346  git commit -m "All Files are added"
+  347  git log
+  348  git push -u gist master
+  349  pwd
+  350  echo "studetnsmarks,RollNumber" >> file.csv
+  351  cat file.txt
+  352  l
+  353  ls
+  354  cat file.csv
+  355  git add file.csv
+  356  git commit -m "File is Updated"
+  357  git push gits master
+  358  git push gist master
+  359  echo ‘student marks,roll no’ >> file.csv
+  360  echo ‘student marks,roll no’ >> file.csv
+  361  git clone https://github.com/vijaykumar10022/pollapp.git
+  362  git add .
+  363  git commit -m "Day-1 File is updated"
+  364  git push gist master
+  365  pwd
+  366  ls
+  367  cd ..
+  368  pwd
+  369  ls
+  370  cd DAY-2/
+  371  pwd
+  372  clear
+  373  clear
+  374  mkdir adsadfafgdjkfdkjfhdkjhsk
+  375  ls
+  376  cd adsadfafgdjkfdkjfhdkjhsk/
+  377  pwd
+  378  cd d:
+  379  pwd
+  380  ls
+  381  cd e:
+  382  pwd
+  383  cd c:
+  384  pwd
+  385  cd C:/Users/Admin/Desktop/GIST-PYTHON/DAY-2
+  386  pwd
+  387  ls
+  388  rmdir adsadfafgdjkfdkjfhdkjhsk/
+  389  ls
+  390  mkdir sadfasdsa
+  391  mkdir dfgsfgs
+  392  mkdir faddfs
+  393  ls
+  394  rmdir *
+  395  ls
+  396  mkdir vvaerer
+  397  mkdir vvvgfsddfs
+  398  rmdir vvvgfsddfs/
+  399  rmdir vvaerer/
+  400  touch myfile.txt
+  401  ls
+  402  nano file1.txt
+  403  ls
+  404  cat filedata.txt
+  405  ls
+  406  rm myfile.txt
+  407  ls
+  408  echo "Hello all "
+  409  echo {1..10}
+  410  echo {1..1000}
+  411  echo "Hello All" >> file.txt
+  412  ls
+  413  cat file.txt
+  414  echo {1..100} >> values.txt
+  415  ls
+  416  cat values.txt 
+  417  echo {1..1000} >>v2.txt
+  418  ls
+  419  rm *
+  420  ls
+  421  touch file{1..10}.txt
+  422  touch file{11..1000}.txt
+  423  rm file{11..1000}.txt
+  424  ls
+  425  touch python{1..10}.py
+  426  touch c_language{1..10}.c
+  427  touch htmlfile{1..10}.html
+  428  rm file{5..10}.txt c_language{5..10}.c python{5..10}.py htmlfile{5..10}.html
+  429  ls
+  430  rm *.txt
+  431  rm *.c
+  432  rm *
+  433  ls
+  434  touch source.txt
+  435  echo "This is source file" >> source.txt
+  436  cat source.txt 
+  437  touch destination.txt
+  438  ls
+  439  cat source.txt >> destination.txt 
+  440  cat destination.txt 
+  441  cat source.txt 
+  442  cat source.txt 
+  443  cat destination.txt 
+  444  mv source.txt destination.txt 
+  445  ls
+  446  touch file.txt
+  447  cat destination.txt 
+  448  cat file.txt
+  449  cp destination.txt file.txt 
+  450  mkdir source
+  451  ls
+  452  mv destination.txt source
+  453  ls
+  454  touch myfile.txt
+  455  ls
+  456  mv *.txt source
+  457  ls
+  458  cd source/
+  459  l
+  460  ls
+  461  mkdir Destination
+  462  ls
+  463  cd ..
+  464  pws
+  465  pwd
+  466  ls
+  467  mkdir destination
+  468  mv source destination
+  469  ls
+  470  cd ..
+  471  pwd
+  472  git init
+  473  git config.user --global "Vijay"
+  474  git --global config.user  "Vijay"
+  475  git config.user -global "Vijay"
+  476  git --help
+  477  git help -g
+  478  git config --global user.name "Vijay"
+  479  git user.name
+  480  git config user.name
+  481  git config --global user.email "vijay10022@gmail.com"
+  482  git config user.email
+  483  ls
+  484  cd DAY-2/
+  485  ls
+  486  cd ..
+  487  pwd
+  488  git add DAY-2
+  489  git status
+  490  mkdir DAy-3
+  491  git status
+  492  ls
+  493  cd DAY-3
+  494  touch demo.txt
+  495  cd ..
+  496  ls
+  497  git status
+  498  git add DAy-3
+  499  git status 
+  500  git commit -m "I have added two folders in my folder"
+  501  mkdir Day-2
+  502  ls
+  503  mkdir adfasdadfgfhdgfhgfhgdftrrr
+  504  ls
+  505  cd adfasdadfgfhdgfhgfhgdftrrr/
+  506  pwd
+  507  cd ..
+  508  ls
+  509  rmdir adfasdadfgfhdgfhgfhgdftrrr
+  510  ls
+  511  cd Day-2
+  512  pwd
+  513  nano demo.txt
+  514  ls
+  515  cat demofile.txt
+  516  ls
+  517  nano source.txt
+  518  ls
+  519  touch destination.txt
+  520  cat source.txt 
+  521  cat destination.txt 
+  522  cat source.txt >> destination.txt
+  523  ls
+  524  cat destination.txt 
+  525  touch Destionation2.txt
+  526  ls
+  527  cp source.txt Destination2.txt 
+  528  ls
+  529  cp source.txt myfile.txt
+  530  ls
+  531  cat myfile.txt 
+  532  cat source.txt >>myfile2.txt
+  533  ls
+  534  cat myfile2.txt
+  535  history >> data.txt
+  536  cat data.txt
+  537  ls
+  538  mv data.txt mydata.txt
+  539  ls
+  540  mkdir Source
+  541  mkdir Destination
+  542  ls
+  543  mv *.txt Source
+  544  ls
+  545  cd Source/
+  546  mv * Destination
+  547  cd ..
+  548  mv Source Destination
+  549  ls
+  550  rmdir Destination/
+  551  rmdir -f Destination/
+  552  rmdir --help
+  553  rmdir -p Destination
+  554  rmdir Destination
+  555  rm -r Destination
+  556  ls
+  557  rm --help
+  558  cd ..
+  559  ls
+  560  git init
+  561  git config --global user.name "vijay"
+  562  git config user.name
+  563  git config --global user.email "vijay10022@gmail.com"
+  564  git config user.email
+  565  touch demo.csv
+  566  ls
+  567  git status
+  568  git add -a
+  569  git add -a
+  570  git add --a
+  571  git status
+  572  touch mydata.txt
+  573  ls
+  574  git status
+  575  git add mydata.txt
+  576  git statys
+  577  git status
+  578  git commit -m "Files and folders are Added" 
+  579  git remote add apssdc https://github.com/readytoashare/APSSDC-Django-Batch-1.git
+  580  git remote -v
+  581  git push -u apssdc master
+  582  ls
+  583  cd Day-2
+  584  history >> history.txt
