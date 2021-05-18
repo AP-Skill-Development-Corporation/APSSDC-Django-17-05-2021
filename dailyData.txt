@@ -1,0 +1,83 @@
+Good Evening to all...!!!
+
+Yesterday Session:
+	Git&GitHub Distributed Version Control System
+		Centralized &Distributed Version Control System
+		
+		
+		
+		
+
+
+Today Agenda:
+	-->Practical Session on LinuxCommands
+		-->touch ->create file or files
+		-->Editor:
+				nano,vim
+		-->nano filename
+			-saving-ctrl+o
+			-Exit-ctrl+x
+		->Cat sourcefile >> destination
+		->cp(Copy) -copy files or folders from one location to 
+		cp source.txt Destination2.txt
+				  528  ls
+				  529  cp source.txt myfile.txt
+				  530  ls
+				  531  cat myfile.txt
+				  532  cat source.txt >>myfile2.txt
+				  533  ls
+				  534  cat myfile2.txt
+				  535  history >> data.txt
+				  
+		->MV(Move) - Move Files or Folders from One location another location
+			->When Ever moving Files from Source to destination Source file or folder is deleted automatically
+			->mv data.txt mydata.txt
+			Source
+			-->create Two Folder inside our repository(folder)-Source and Destination
+			->mv *.txt source
+			
+
+
+		->rm Multiple files at a time
+		->cat filename-just access data to the file
+		->Echo "Message" - it is displaying somthing into command
+		
+	-->Practical Session on GitCommands
+		->Git Configuration in to Local System
+				1).local
+						one particular folder
+						myproject
+							needed
+							Commands:
+								git config user.name "vijay"
+								git config user.email "vijay10022@gmail"
+					project
+						needed
+						Commands:
+							git config user.name "vijay"
+							git config user.email "vijay10022@gmail"
+				2).global
+						Entire System
+						
+					one time configuration
+						Commands:
+							git config --global user.name "vijay"
+							git config --global user.email "vijay10022@gmail.com"
+		
+			->create onefile
+			->git status
+			->git add --a
+			->git commit -m "Some files added"
+			->git remote add remotename(userdefined) url(https://github.com/readytoashare/APSSDC-Django-Batch-1.git)
+			->git remote -v
+			->git push -u apssdc master
+	-->Git Commit->Saving info
+			,PUSH-->Inserting ,
+			PULL-->After updating in cloud chages are updated in local
+			,Clone-->to access entire diretory into local system 
+			forking-->github-->any reposotory added into our github
+	-->Profile Creation
+		Markdown syntax:
+		
+				
+	
