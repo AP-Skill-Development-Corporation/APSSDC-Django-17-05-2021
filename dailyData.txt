@@ -77,7 +77,160 @@ Today Agenda:
 			,Clone-->to access entire diretory into local system 
 			forking-->github-->any reposotory added into our github
 	-->Profile Creation
+	
 		Markdown syntax:
+			
+	Day-3[19-05-2021]
+	Today Agenda:
+			Editors or IDES:
+					-->Online Editors or IDE's
+					-->offline Editors or IDE's
+							Anacoda Navigator:
+									- jupyternotebook
+									- spyder
+							- Sublime
+							- VS(Visual Studio Editor)
+							- Pycharm
+			->Opp's in python
+				- class(logical Entity )
+					- Design,blueprint
+					Ex:House plan(2 bed room 1 kitchen 1 bathroom 1 hall)
+						systax:
+							class classname:
+									variables
+									methods
+							ex:
+								class House:
+										bedrooms=2
+										kitchen=1
+										hall=1
+										bathroom=1
+										
+										
+						
+				- object(physical entity or instance of class) - Memory
+					house1=House()
+						house1.bedrooms
+						house1.kithen
+						house1.hall
+						house1.athroom
+						
+					house2=House()
+					house3=House()
+					
+				Method:
+					Nothing but Funtion
+					function with in the class -->method
+					function outside the class -->function
+					
+				- Construtor
+					-->special kind of Method in python
+					-->we can create Construtor by using def
+					-->The name of the Construtor should be __init__(self)
+					-->self is the first argument
+					-->the main purpose of Construtor is to initilize instance of global variable
+					
+					class Student():
+							def __init__(self):
+								print("Hello iam Construtor")
+					
+				- inheritance types
+						process of creating new class
+						 by properties of existing class
+						 (aquiring properties from parent class to child class)
+						 
+					->single Level
+						single parent class and single child class
+						sytax:
+							class Parent():
+								def myfun1(self):
+									print("i am from parent class and myfun1 method")
+							class child(Parent):
+									def myfun2(self):
+										print("i am from Child class and myfun2 method")
+					->multi level
+						Syntax:
+							class A:
+								pass
+								m1
+								m1
+							class B(A):
+								pass
+								m2
+								m1,m2
+							class C(B):
+								pass
+								m3
+								m1,m2,m3
+							class D(C):
+								pass
+								m4
+								m1,m2,m3,m4
+					->Multiple
+						syntax:
+							class A:
+								pass 
+								m1
+							class B:
+								pass
+								m2
+							class C(A,B):
+								pass
+								m3
+								m1,m2,m3
+					->Hirarichical
+						one parent with multiple childs
+						syntax:
+							class Parent:
+								pass 
+								m1
+							class child1(Parent):
+								pass
+								m2
+							class Child2(parent):
+								pass
+								m3
+							class Child3(Parent):
+								pass
+								m4
+					->hybrid
+							(muliple+multi level)
+							syntax:
+								class A:
+									m1
+								class B(A):
+										m2
+								class C:
+									m3
+								class D(A,B,C):
+									m4
+				->Polymorphism
+						->over loading
+						->overriding
+					
+				->Abstration
+					
+				->Encapulation
+			->Packages & Modules using opp's
+						package ->one folder(Numpy)
+						--------
+						from Mypackage import mymodule
+						obj=mymodule.Student()
+						obj.mymet()
+						
+						
+						from Mypackage import mymodule as mm
+							
+						from Mypackage.mymodule import Student,Employee
+						
+						module -->one file(.py)
+						---------
+						
+						import mymodule
+						obj=mymodule.Studet()
+						obj.mymet()
+						import module as mm
+						obj=mm.Student()
+						obj.mymet()
 		
-				
 	
