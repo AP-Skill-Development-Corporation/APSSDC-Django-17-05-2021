@@ -234,3 +234,154 @@ Today Agenda:
 						obj.mymet()
 		
 	
+		Today Agenda[20-05-2021]
+		
+			What is the Diff b/w Desiging and Development?
+						Design layout(Bluprint)[FrontEnd Design]-->Html,CSS,BS4(Bootstrap4),JS ...
+						Development:(Frontend +BackEnd)-->Java,Reactjs,Python,Html,BS4,CSS,JS Etc..
+						
+									Java=Spring,Hybernet,
+									Python->Flask,Django,py etc..
+									
+									
+			-->intro about django
+					-->Framework comes under python
+					-->Dynamic in nature(Predefined or Predeveloped Application are implemented inernally)
+					-->Free and open source 
+					-->MVT Arachitecture
+					-->Maintained by DSF(Django Software Foundation)
+					-->http://www.djangoproject.com
+					-->it is Created in the year of 2003 and it is opensourse in 2005
+					-->Fast,Secure,Scalable
+					
+			-->Design Pattern
+						- MVT(Model View Templates)(paint) or MTV(Model Template View)
+							M-Model--Backend-Storage(Database)
+							V-View --Coding part--Bussiness logic
+							T-Template--Userinterface-html pages(Html,CSS,JS,BS)
+						- MVC(Model View Controller)
+							M-Model -Database
+							V-View - Templates(Userinterface)
+							C-Controller -Business  logic
+			-->Current Version:3.2.3
+			-->installaion
+				Open Command Promt 
+					-> pip install django
+			-->For cheking  Django Version
+					open command Promt
+						-->python
+						-->import Django
+						-->django.__version__
+			-->for development Django project
+					-->Python version(3.6 and 3.7)
+					
+						
+			-->	Servers
+					-->Django Server
+							
+					-->Apache(XAMPP),Nginx using WSGI,Gunicorn
+			-->DataBases:(RDMS)-Relational Database Management System
+					-->SQLite3
+					-->Other Databases
+						->PostgreSQL
+						->Oracle
+						->MariaDB
+						->MYSQL
+			-->Template Engine
+					PHP-->Twig
+					RUBY-->Liquid
+					Pyhton->DTL(Dajngo Templates Langiage ),Jinja
+						DTL(Dajngo Templates Langiage )
+							for Single line Staments
+									-->{{}}
+							for checking condition
+								-->{% if condition %}
+									{% else %}
+									{% endif%}
+							for iteration
+								-->{% for %}
+									{% endfor %}
+			-->Django Project Creation[img]
+				-->Open Your Project Location
+						-->Desktop/APSSDC-Django-Batch-1
+							mkdir Django_projects
+						-->Desktop/APSSDC-Django-Batch-1/Django_project
+							-->django-admin startproject projectname
+								ex:django-admin startproject demo_project
+							-->demo_project
+								-->demo_project
+									-->__init__.py	This is emty file it is consider as apython file
+									-->asgi.py asgi(asynchronous gateway interface)- hosting
+									-->urls.py	->to navigate other pages
+									-->settings.py -->Everything is configure this file(Database,application,Templates,Media,static)
+									-->wsgi.py -->(web service Gateway interface)- hosting
+								-->manage.py -->main part of project
+												Server running
+												Databases migrate
+												application
+			-->Run Project
+				cd demo_project
+					->python manage.py runserver
+					->http://127.0.0.1:8000/
+					->to stop server
+							->ctrl+c
+					if you want to change port number
+						-->python manage.py runserver 6000
+				-->insted of ip 
+						localhost:8000
+			-->Django App Creation
+					-->python manage.py startapp appname
+						ex:python manage.py startapp app1
+							app1:
+								migrations folde :Data base script files
+								__init__.py :this just python
+								models.py :Data base Files 
+								test.py :scripting
+								app.py	: application is configure
+								admin.py : database models inside admin it is reflect into admin pannel
+								view.py :main file in application :Business login
+			Editors:
+					->sublime
+					->VS
+						project
+							__init__.py
+							settings.py
+							urls.py
+							asgi.py
+							swgi.py
+							app1
+								migrations
+								__init__.py
+								models.py
+								test.py
+								app.py
+								admin.py
+								views.py
+							app2   
+								migrations
+								__init__.py
+								models.py
+								test.py
+								app.py
+								admin.py
+								views.py
+							app3
+								migrations
+								__init__.py
+								models.py
+								test.py
+								app.py
+								admin.py
+								views.py
+						manage.py
+					->pycharm
+					
+					
+			-->Project Navigation
+						-->Python manage.py runserver
+						
+				-->Manage.py -->settings.py -->urls.py -->app1 -->Views.py -->models/templates
+			-->Url Mapping
+			-->Dynamic Url Mapping
+				
+
