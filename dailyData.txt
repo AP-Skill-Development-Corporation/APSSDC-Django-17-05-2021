@@ -384,4 +384,34 @@ Today Agenda:
 			-->Url Mapping
 			-->Dynamic Url Mapping
 				
+				
+		Good Evening to all...!!!
+	wait for few minutes others can join the session
+
+Day-6[Agenda]:
+	-->Data Rendaring from vews to templates
+	-->Data Rendaring from Templates to Views
+	-->Model(DataBase Creation)
+	-->Migrations
+		-->makemigrations
+			class model -->python script
+		ex:python manage.py makemigration
+		-->migrate
+			python script -->tables
+		ex:python manage.py migrate
+		sqlite3
+			-->tool -->DB Browser
+	-->ORM(object Relational Mapping)-Quiries with Shell
+		->python manage.py shell 
+		
+		Store the data:
+				2 ways:
+					1).obj=Modelname(fildname="",fildname="",etc..)
+					   obj.save()
+					2).Modelname.object.create(fildname="",fildname="",etc..)
+
+	Employee1:
+		index.html
+	Employee2:
+		index.html
 

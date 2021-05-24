@@ -1,0 +1,27 @@
+<html>
+    <title>::Senddata::</title>
+    <head>
+        <style>
+            div{
+               text-align: center;
+               
+            }
+            h1{
+                   color: red;
+               }
+        </style>
+    </head>
+    <body>
+        <div>
+        <h1>Employee Data </h1>
+        <form action="{% url 'senddata' %}" method="POST">
+            {% csrf_token %}
+            Name:<input type='text' name='name'><br>
+            Email:<input type='email' name='email'><br>
+            Designation:<input type="text" name='designation'><br>
+            Experince:<input type="text" name='ex'><br>
+            <button>Submit</button>
+        </form>
+        </div>
+    </body>
+</html>
